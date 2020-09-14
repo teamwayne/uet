@@ -1,4 +1,6 @@
 // Safely load load object.
+import UET_UTILS from './utils';
+
 window.load = window.load || {};
 window.load.tags = window.load.tags || {};
 // Inherit common Tealium helper tools from IAG Common Tealium Helpers Extension
@@ -156,4 +158,5 @@ var UETTAGS = {
     }
   },
 };
-UETTAGS.execute();
+
+export default UETTAGS;

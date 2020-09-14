@@ -1,5 +1,5 @@
 // Type your JavaScript code here...  
-
+import UET_UTILS from './utils';
 
 var iagUet = {
   config: {
@@ -96,8 +96,4 @@ var iagUet = {
     }
   }
 };
-
-
 export default iagUet;
-
-if (!window.uetq) iagUet.executeLoader();
