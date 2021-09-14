@@ -1,6 +1,6 @@
 {
   "name": "uet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IAG Personalisation Engineering Boilerplate",
   "main": "index.js",
   "scripts": {
@@ -32,9 +32,5 @@
     "gulp-wrap": "^0.13.0",
     "pump": "^2.0.1",
     "yargs": "^10.1.2"
-  },
-  "dependencies": {
-    "findup-sync": "^2.0.0",
-    "node-pre-gyp": "0.10.2"
   }
 }
